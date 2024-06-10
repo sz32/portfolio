@@ -1190,3 +1190,51 @@ section {
 #footer .credits {
   font-size: 13px;
 }
+
+/* skills css */
+
+.skills-table-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.skills-table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+.skills-table th, .skills-table td {
+    padding: 12px 15px;
+    text-align: left;
+    vertical-align: top;
+}
+
+.skills-table th {
+    background-color: #0073e6;
+    color: #fff;
+    font-size: 16px;
+}
+
+.skills-table td {
+    color: #333;
+    font-size: 14px;
+}
+
+.chip {
+    display: inline-block;
+    padding: 8px 12px;
+    font-size: 14px;
+    margin: 4px 4px 4px 0;
+    color: #0073e6;
+    background-color: #e0f7fa;
+    border-radius: 16px;
+}
+
+.chip:hover {
+    background-color: #b2ebf2;
+}
