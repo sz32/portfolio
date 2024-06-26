@@ -509,7 +509,7 @@ section {
 
 /* Ensures the image is responsive */
 /* Specific size for the circular image container */
-.col-lg-4 {
+.col-lg-4-profile {
     width: 200px; /* Fixed width */
     height: 180px; /* Fixed height */
     overflow: hidden; /* Hide any overflow */
